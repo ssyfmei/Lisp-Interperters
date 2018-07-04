@@ -171,7 +171,7 @@
 
 
 (define c0 (λ (f) (λ (x) x)))
-(define c5 (λ (f) (lambda (x) (f (f (f (f (f x))))))))
+(define c5 (λ (f) (λ (x) (f (f (f (f (f x))))))))
 
 (define csub1
   (λ (m)
